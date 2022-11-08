@@ -24,6 +24,7 @@ gem "sqlite3", "~> 1.4"
 # https://github.com/jarmo/require_all
 gem "require_all"
 
+gem "puma"
 # These gems will only be used when we are running the application locally
 group :development do
   # Used to generate seed data
@@ -45,3 +46,8 @@ group :test do
 end
 
 
+
+
+
+# gem 'openssl', '2.1.2'
+# gem "falcon"
